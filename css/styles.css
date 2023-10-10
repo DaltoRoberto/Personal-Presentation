@@ -123,7 +123,7 @@
   margin-bottom: 10px;
 }
 
-#btn-projects {
+#btn-git {
   font-weight: bold;
   font-size: 16px;
   color: var(--main-text-color);
@@ -139,17 +139,17 @@
   display: flex;
 }
 
-#btn-projects ion-icon,
-#btn-projects span {
+#btn-git ion-icon,
+#btn-git span {
   flex: 1 1 0;
 }
 
-#btn-projects ion-icon {
+#btn-git ion-icon {
   font-size: 20px;
   max-width: 20px;
 }
 
-#btn-projects:hover {
+#btn-git:hover {
   background-color: transparent;
 }
 
@@ -180,9 +180,13 @@
   border-left: 5px solid var(--main-color);
 }
 
-.skills-box i {
-  font-size: 45px;
-  margin-right: 10px;
+.skills-box {
+  font-size: 40px;
+}
+
+.skills-description {
+  font-size: 26px;
+  color: #54B689;
 }
 
 /* Mobile */
@@ -218,7 +222,7 @@
     line-height: 26px;
   }
 
-  #btn-projects {
+  #btn-git {
     margin: 20px auto;
   }
 
